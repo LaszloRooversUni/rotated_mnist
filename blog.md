@@ -1,5 +1,6 @@
 # Are CNNs Rotation-Invariant? A Controlled Experiment with MNIST
 By Lászlo Roovers - June 2025
+GitHub repository: https://github.com/LaszloRooversUni/rotated_mnist
 ## Introduction
 
 Convolutional Neural Networks (CNNs) have become the standard architecture for many image recognition tasks, largely due to their ability to learn local spatial features and exhibit translation invariance. However, an often-overlooked question is whether CNNs can generalize to rotated inputs, a common transformation in real-world applications such as medical imaging, satellite imagery, and autonomous driving.
@@ -59,6 +60,15 @@ if __name__ == "__main__":
 ```
 
 This creates a labeled directory of rotated digits for each angle. The rotated digits retain their original labels, ensuring a clean and interpretable evaluation set.
+
+## Example Images
+To visualize the effect of rotation on the MNIST digits, we include side-by-side comparisons of the rotated images. This helps illustrate how the model's task becomes more challenging as the digits are rotated further from their upright orientation.
+
+Below are example digits rotated by 30°, 60°, and 90°, respectively:
+![Rotated MNIST digit - 30 degrees](static/30_degrees.png)  ![Rotated MNIST digit - 60 degrees](static/60_degrees.png)  ![Rotated MNIST digit - 90 degrees](static/90_degrees.png)
+
+
+These rotations were applied uniformly to all test samples in the control dataset. As rotation increases, some digits (like 6/9 or 1/7) become harder to distinguish, revealing challenges for rotation-sensitive models.
 
 ## Experiment Setup
 
