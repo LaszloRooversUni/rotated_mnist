@@ -1,6 +1,5 @@
 # Are CNNs Rotation-Invariant? A Controlled Experiment with MNIST
-By Lászlo Roovers - June 2025
-GitHub repository: https://github.com/LaszloRooversUni/rotated_mnist
+By Lászlo Roovers - June 2025 - https://github.com/LaszloRooversUni/rotated_mnist
 ## Introduction
 
 Convolutional Neural Networks (CNNs) have become the standard architecture for many image recognition tasks, largely due to their ability to learn local spatial features and exhibit translation invariance. However, an often-overlooked question is whether CNNs can generalize to rotated inputs, a common transformation in real-world applications such as medical imaging, satellite imagery, and autonomous driving.
