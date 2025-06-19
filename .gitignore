@@ -1,0 +1,6 @@
+__pycache__/
+
+venv
+MNIST
+data/
+model/mnist_cnn.pth
