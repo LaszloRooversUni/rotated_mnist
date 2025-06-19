@@ -1,5 +1,7 @@
 # Rotated MNIST: Testing Rotation Invariance in CNNs
 
+IMPORTANT: For the blogpost, see `blog.md`. This README serves only as a quick overview.
+
 This project explores how rotation affects the performance of a simple CNN trained on MNIST.
 
 Inspiration was taken from the CNN examples in the professor's lecture slides, and from studies such as:
